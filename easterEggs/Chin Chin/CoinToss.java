@@ -13,14 +13,11 @@ public class CoinToss{
         System.out.println("Guess the outcome of the coin: (0 - Tail, 1 - Head): ");
         int guessedNumber = input.nextInt();
 
-        if (number == 1 && number == guessedNumber){
-            System.out.println("Correct! It is an Head");
-        }
-        if (number == 0 && number == guessedNumber){
-            System.out.println("Corect! It is a Tail");
+        if (number == guessedNumber){
+            System.out.println("You guessed right!");
         }
         if (number != guessedNumber){
-            System.out.println("Ooops! You guessed wrong!");
+            System.out.println("You guessed wrong!");
         }
 
     }

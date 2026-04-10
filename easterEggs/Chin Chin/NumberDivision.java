@@ -8,7 +8,7 @@ public class NumberDivision{
         System.out.print("Enter m: ");
         int m = input.nextInt();
 
-        System.out.print("Enter n");
+        System.out.print("Enter n: ");
         
         int n = input.nextInt();
 

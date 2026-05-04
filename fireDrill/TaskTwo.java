@@ -1,0 +1,38 @@
+import java.util.Scannner;
+
+    public class TaskTwo{
+    
+        public static void main(String[] args){
+        
+           Scanner input = new Scanner(System.in);
+           int [] list = new int[10]; 
+            System.out.println("enter score: ");
+            
+            
+          for(int number = 0; number < list.length; number++){
+          System.out.print("Enter a score "  +number+ " ;");
+          list[number] = input.nextInt();
+          System.out.println(list[number]+ " ");
+          
+          }
+           
+            
+           for(int number = 0; number < list.length; number++){
+           
+             System.out.print(list[number] + " ");    
+                
+                }
+           
+               
+           
+            
+            
+            
+            }
+             
+        }
+    
+        
+        }
+        
+    }
